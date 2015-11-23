@@ -2,21 +2,34 @@
 layout: default
 ---
 
-{% for post in site.posts %}
+<table>
+  {% for post in site.posts  %}
+      {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+      {% capture next_year %}{{ post.next.date | date: "%Y" }}{% endcapture %}
 
-  <div class="{% if post.is_lost %}post-lost{% endif %}">
-    {{ post.date | date: "%b %-d, %Y" }}
-      »
-    <span class='post-title'>
-      {% if post.is_lost %}
-        [footage lost] {{ post.title }}
-      {% else %}
-        <a href="{{ site.path }}{{ post.url }}">{{ post.title }}</a>
-      {% endif %}
-    </span>
-  </div>
+      <tr {% if this_year != next_year %}class="year-first"{% endif %}>
+        <td width="10%" class="year">
+          {% if this_year != next_year %}
+            {{this_year}}
+          {% endif %}
+        </td>
 
-{% endfor %}
+        {% if post.is_lost %}
+          <td class="is-lost"> 
+            [footage lost] {{ post.title }}
+          </td>
+        {% else %}
+          <td>
+            <a href="{{ site.path }}{{ post.url }}">{{ post.title }}</a>
+          </td>
+        {% endif %}
+
+        <td class="date" width="10%">
+          {{ post.date | date: "%b %-d" }}
+        </td>
+      </tr>
+  {% endfor %}
+</table>
 
 <br/>
 
