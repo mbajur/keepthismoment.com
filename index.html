@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+{% for post in site.posts %}
+
+  <div class="{% if post.is_lost %}post-lost{% endif %}">
+    {{ post.date | date: "%b %-d, %Y" }}
+      »
+    <span class='post-title'>
+      {% if post.is_lost %}
+        [footage lost] {{ post.title }}
+      {% else %}
+        <a href="{{ site.path }}{{ post.url }}">{{ post.title }}</a>
+      {% endif %}
+    </span>
+  </div>
+
+{% endfor %}
+
+<br/>
+
+<p>
+<center>Albums from 2009 - 2007 are gone forever</center>
+</p>

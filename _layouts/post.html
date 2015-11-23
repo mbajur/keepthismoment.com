@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<article class='post feedify'>
+  {% for set in page.sets %}
+    <div class="post--band feedify-item">
+      <h2 class="post--band-name feedify-item-header">
+        {{ set.band_name }}
+
+        <a href="#" class="top">top &uarr;</a>
+      </h2>
+      
+      <p class="feedify-item-body">
+        {% for photo in set.photos %}
+          <img src="{{ photo }}" alt="{{ set.band_name }} - {{ page.location }}" />
+        {% endfor %}
+      </p>
+    </div>
+  {% endfor %}
+
+  {{ content }}
+
+  <div class="notice">
+    <p>Those photos belongs to all the people and bands captured. Feel free to do whatever you want with them but please just drop 
+    me a line or link keepthismoment.com back. Thanks!</p>
+  </div>
+</article>
