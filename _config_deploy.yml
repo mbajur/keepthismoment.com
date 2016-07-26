@@ -6,6 +6,7 @@ baseurl: "http://keepthismoment.com/"
 url: "http://keepthismoment.com"
 deploy_dir: 'deploy@keepthismoment.com:/home/deploy/ktm'
 
+
 # Build settings
 markdown: kramdown
 permalink: /:categories/:title

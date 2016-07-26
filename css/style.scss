@@ -29,7 +29,7 @@ a {
   strong {
     color: inherit;
   }
-  
+
   &:hover,
   &:focus {
     text-decoration: underline;
@@ -118,7 +118,7 @@ pre {
     color: inherit;
     background-color: transparent;
   }
-}  
+}
 
 
 /////////////////////
@@ -190,6 +190,10 @@ table {
   margin-right: auto;
 }
 
+.container-1100 {
+  max-width: 1100px !important;
+}
+
 ///////////////////////////////////////////////////
 //  Masthead
 
@@ -202,11 +206,11 @@ table {
     margin-top: 0;
     margin-bottom: 0;
     color: $masthead-color;
-  
+
     a {
       color: $masthead-color;
     }
-    
+
     small {
       color: $masthead-small-color;
       font-size: 75%;
@@ -242,11 +246,15 @@ table {
 }
 
 .post-date {
-  color: $post-date-color;  
+  color: $post-date-color;
 }
 
 .post--band {
   margin-bottom: 130px;
+}
+
+.post-vote {
+  margin-top: -62px !important;
 }
 
 .post--band-name {
@@ -271,7 +279,7 @@ table {
   text-align: center;
   border-top: 7px double #eee;
   padding-top: 23px;
-  margin-top: -50px;
+  margin-top: 50px;
 }
 
 footer {

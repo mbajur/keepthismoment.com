@@ -10,19 +10,28 @@ layout: default
 
         <a href="#" class="top">top &uarr;</a>
       </h2>
-      
+
       <p class="feedify-item-body">
-        {% for photo in set.photos %}
-          <img src="{{ photo }}" alt="{{ set.band_name }} - {{ page.location }}" />
-        {% endfor %}
+        <center>
+          {% for photo in set.photos %}
+            <img src="{{ photo }}" alt="{{ set.band_name }} - {{ page.location }}" />
+          {% endfor %}
+        </center>
       </p>
     </div>
   {% endfor %}
 
   {{ content }}
 
+  <iframe
+    class="post-vote"
+    style="border:0;width:155px;height:77px;margin:0 auto;display:block;"
+    src="http://localhost:9393/button?url={{ page.url }}&amp;label=Click to appreciate&amp;thanks_label=Thank+you%21"
+    scrolling="no"
+  ></iframe>
+
   <div class="notice">
-    <p>Those photos belongs to all the people and bands captured. Feel free to do whatever you want with them but please just drop 
+    <p>Those photos are courtesy of all the people and bands captured. Feel free to do whatever you want with them but please just drop
     me a line or link keepthismoment.com back. Thanks!</p>
   </div>
 </article>
