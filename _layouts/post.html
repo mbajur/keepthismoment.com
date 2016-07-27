@@ -26,7 +26,7 @@ layout: default
   <iframe
     class="post-vote"
     style="border:0;width:155px;height:77px;margin:0 auto;display:block;"
-    src="http://localhost:9393/button?url={{ page.url }}&amp;label=Click to appreciate&amp;thanks_label=Thank+you%21"
+    src="{{ site.likeit_url }}/button?url={{ site.url }}{{ page.url }}&amp;label=Click to appreciate&amp;thanks_label=Thank+you%21"
     scrolling="no"
   ></iframe>
 

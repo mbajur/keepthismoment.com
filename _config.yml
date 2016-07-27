@@ -5,6 +5,9 @@ description: "hardcore punk photos and videos"
 baseurl: ""
 url: "http://localhost:4000"
 
+# Misc
+likeit_url: http://likeit.platform.hcxp.co
+
 # Build settings
 markdown: kramdown
 permalink: /:categories/:title
