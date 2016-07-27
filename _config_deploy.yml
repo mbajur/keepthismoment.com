@@ -10,3 +10,4 @@ deploy_dir: 'deploy@keepthismoment.com:/home/deploy/ktm'
 # Build settings
 markdown: kramdown
 permalink: /:categories/:title
+exclude: [vendor]
