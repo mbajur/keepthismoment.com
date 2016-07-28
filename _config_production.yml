@@ -1,7 +1,7 @@
 # Site settings
 title: Keep This Moment
 email: mbajur@gmail.com
-description: "hardcore punk photos and videos"
+description: "stage dives & high fives"
 baseurl: "https://keepthismoment.com/"
 url: "https://keepthismoment.com"
 deploy_dir: 'deploy@keepthismoment.com:/home/deploy/ktm'
