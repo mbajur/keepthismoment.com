@@ -3,7 +3,7 @@ layout:    post
 category:  photos
 title:     Limp Blitzkrieg, Spirits
 location:  Kraków
-thumb:     https://s3.eu-central-1.amazonaws.com/keepthismoment/25.07.2016.limp.blitzkrieg.spirits/IMG_1874.jpg
+thumb:     https://s3.eu-central-1.amazonaws.com/keepthismoment/25.07.2016.limp.blitzkrieg.spirits/thumb.jpg
 width:     1000
 sets:
            - band_name: Limp Blitzkrieg
