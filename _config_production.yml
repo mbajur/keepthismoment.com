@@ -7,7 +7,7 @@ url: "https://keepthismoment.com"
 deploy_dir: 'deploy@keepthismoment.com:/home/deploy/ktm'
 
 # Misc
-likeit_url: http://likeit.platform.hcxp.co
+likeit_url: https://likeit.platform.hcxp.co
 
 # Build settings
 markdown: kramdown
