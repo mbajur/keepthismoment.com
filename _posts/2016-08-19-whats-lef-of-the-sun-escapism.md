@@ -1,7 +1,7 @@
 ---
 layout:    post
 category:  photos
-title:     What's Left of the Sun
+title:     What's Left of the Sun, Escapism
 location:  Kraków
 thumb:     https://s3.eu-central-1.amazonaws.com/keepthismoment/19.08.2016.whats.left.of.the.sun.escapism/IMG_2162-3.jpg
 width:     1000
