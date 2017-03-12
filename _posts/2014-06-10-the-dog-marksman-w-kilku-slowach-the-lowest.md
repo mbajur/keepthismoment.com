@@ -3,24 +3,24 @@ layout:    post
 category:  photos
 title:     The Dog, Marksman, W Kilku Słowach, The Lowest
 location:  Kraków, PL
-thumb:     https://scontent-a-ams.xx.fbcdn.net/hphotos-xaf1/t1.0-9/217848_404170482963642_2031758922_n.jpg
+thumb:     http://i1189.photobucket.com/albums/z423/strongxmind/habafest2014/_DSC3030_zps59074499.jpg
 sets:
            - band_name: The Dog
-             photos: 
+             photos:
                - http://i1189.photobucket.com/albums/z423/strongxmind/habafest2014/_DSC2991_zpsca2c3408.jpg
                - http://i1189.photobucket.com/albums/z423/strongxmind/habafest2014/_DSC2994_zps19251851.jpg
                - http://i1189.photobucket.com/albums/z423/strongxmind/habafest2014/_DSC2995_zps8c47638b.jpg
                - http://i1189.photobucket.com/albums/z423/strongxmind/habafest2014/_DSC3000_zpsaf78e64b.jpg
 
            - band_name: Marksman
-             photos: 
+             photos:
                - http://i1189.photobucket.com/albums/z423/strongxmind/habafest2014/_DSC3003_zps9da6a1b9.jpg
                - http://i1189.photobucket.com/albums/z423/strongxmind/habafest2014/_DSC3010_zps9245197a.jpg
                - http://i1189.photobucket.com/albums/z423/strongxmind/habafest2014/_DSC3006_zps13049306.jpg
                - http://i1189.photobucket.com/albums/z423/strongxmind/habafest2014/_DSC3005_zps4895d9ba.jpg
 
            - band_name: W Kilku Słowach
-             photos: 
+             photos:
                - http://i1189.photobucket.com/albums/z423/strongxmind/habafest2014/_DSC3016_zps34e4cbd8.jpg
                - http://i1189.photobucket.com/albums/z423/strongxmind/habafest2014/_DSC3018_zps262f12f0.jpg
                - http://i1189.photobucket.com/albums/z423/strongxmind/habafest2014/_DSC3019_zps00f87dec.jpg
@@ -36,7 +36,7 @@ sets:
                - http://i1189.photobucket.com/albums/z423/strongxmind/habafest2014/_DSC3033_zps31cd57e6.jpg
 
            - band_name: The Lowest
-             photos: 
+             photos:
                - http://i1189.photobucket.com/albums/z423/strongxmind/habafest2014/_DSC3039_zps70ae8f21.jpg
                - http://i1189.photobucket.com/albums/z423/strongxmind/habafest2014/_DSC3040_zps23039992.jpg
                - http://i1189.photobucket.com/albums/z423/strongxmind/habafest2014/_DSC3047_zps4737272a.jpg

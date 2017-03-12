@@ -3,15 +3,15 @@ layout:    post
 category:  photos
 title:     Burning Sky, Castet, Spirits
 location:  Kraków
-thumb:     http://rs1189.pbsrc.com/albums/z423/strongxmind/kanciapa_spirits/_DSC5109_zpshy8iow9k.jpg~c200?t=1430656045
-sets:      
+thumb:     http://i1189.photobucket.com/albums/z423/strongxmind/kanciapa_spirits/_DSC5082_zpskciehtf0.jpg
+sets:
            - band_name: Burning Sky
-             photos: 
+             photos:
                - http://i1189.photobucket.com/albums/z423/strongxmind/kanciapa_spirits/_DSC5080_zpszr5qelcq.jpg
                - http://i1189.photobucket.com/albums/z423/strongxmind/kanciapa_spirits/_DSC5082_zpskciehtf0.jpg
 
            - band_name: Castet
-             photos: 
+             photos:
                - http://i1189.photobucket.com/albums/z423/strongxmind/kanciapa_spirits/_DSC5086_zpspvx7vlgt.jpg
                - http://i1189.photobucket.com/albums/z423/strongxmind/kanciapa_spirits/_DSC5083_zpsseitn1dp.jpg
                - http://i1189.photobucket.com/albums/z423/strongxmind/kanciapa_spirits/_DSC5088_zpst3upym9s.jpg
@@ -23,7 +23,7 @@ sets:
                - http://i1189.photobucket.com/albums/z423/strongxmind/kanciapa_spirits/_DSC5108-2_zpsdjflnptq.jpg
 
            - band_name: Spirits
-             photos: 
+             photos:
                - http://i1189.photobucket.com/albums/z423/strongxmind/kanciapa_spirits/_DSC5109_zpshy8iow9k.jpg
                - http://i1189.photobucket.com/albums/z423/strongxmind/kanciapa_spirits/_DSC5113_zpswmwoi4rk.jpg
                - http://i1189.photobucket.com/albums/z423/strongxmind/kanciapa_spirits/_DSC5117_zpsytbkazxj.jpg

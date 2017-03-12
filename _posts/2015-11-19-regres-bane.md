@@ -3,10 +3,10 @@ layout:    post
 category:  photos
 title:     Regres, Bane
 location:  Częstochowa, PL
-thumb:     http://rs1189.pbsrc.com/albums/z423/strongxmind/regres-bane/_DSC5949-2_zpsolowfzed.jpg~c200 
-sets:      
+thumb:     http://i1189.photobucket.com/albums/z423/strongxmind/regres-bane/_DSC5931-2_zpsqrbvqdii.jpg
+sets:
            - band_name: Regres
-             photos: 
+             photos:
                - http://i1189.photobucket.com/albums/z423/strongxmind/regres-bane/_DSC5897_zpsipzsfv4b.jpg
                - http://i1189.photobucket.com/albums/z423/strongxmind/regres-bane/_DSC5898_zpst3jkpiye.jpg
                - http://i1189.photobucket.com/albums/z423/strongxmind/regres-bane/_DSC5907_zpsmwpxxo3s.jpg
@@ -20,7 +20,7 @@ sets:
                - http://i1189.photobucket.com/albums/z423/strongxmind/regres-bane/_DSC5912_zpsbzjwq2dv.jpg
 
            - band_name: Bane
-             photos: 
+             photos:
                - http://i1189.photobucket.com/albums/z423/strongxmind/regres-bane/_DSC5931-2_zpsqrbvqdii.jpg
                - http://i1189.photobucket.com/albums/z423/strongxmind/regres-bane/_DSC5920_zpsusabnpfe.jpg
                - http://i1189.photobucket.com/albums/z423/strongxmind/regres-bane/_DSC5921_zps3oxn14hl.jpg

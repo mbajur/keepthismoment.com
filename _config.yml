@@ -11,3 +11,6 @@ likeit_url: http://likeit.platform.hcxp.co
 # Build settings
 markdown: kramdown
 permalink: /:categories/:title
+
+gems:
+- jekyll-autoprefixer

@@ -160,7 +160,11 @@ table {
   }
 
   tr.year-first {
-    border-top: 1px solid #757575;
+    border-top: 3px solid #333;
+  }
+
+  tr.year-first td {
+    padding-top: 20px !important;
   }
 
   td.year {
@@ -313,4 +317,29 @@ footer {
 .feedify .feedify-item.bottom .feedify-item-header {
   position: absolute;
   bottom: 0;
+}
+
+.posts-list-post-link {
+  display: block;
+  min-height: 150px;
+  background-color: #eee;
+  background-size: cover;
+  background-position: 50% 50%;
+  margin-bottom: 10px;
+}
+
+.posts-list-post-link:hover span {
+  background: #f19e4a;
+  color: #fff;
+  transition: all 0.2s;
+}
+
+.posts-list-post-link span {
+  background: #fff;
+  color: #333;
+  margin: 10px 0 0 10px;
+  display: inline-block;
+  padding: 0 10px;
+  font-weight: 600;
+  transition: all 0.2s;
 }
