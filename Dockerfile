@@ -40,7 +40,7 @@ ENV JEKYLL_CONFIG_FILE _config_production.yml
 # The main command to run when the container starts. Also
 # tell the Rails dev server to bind to all interfaces by
 # default.
-CMD ["bundle", "exec", "rackup", "config.ru", "-p", "9292"]
+CMD ["bundle", "exec", "rackup", "config.ru", "-o", "0.0.0.0", "-p", "9292"]
 
 # Define a healthcheck
-# HEALTHCHECK CMD curl --fail http://0.0.0.0:3000/healthcheck || exit 1
+HEALTHCHECK CMD curl --fail http://0.0.0.0:9292/ || exit 1
