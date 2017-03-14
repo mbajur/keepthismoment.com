@@ -6,10 +6,7 @@ baseurl: "https://keepthismoment.com/"
 url: "https://keepthismoment.com"
 deploy_dir: 'deploy@keepthismoment.com:/home/deploy/ktm'
 
-# Misc
-likeit_url: https://likeit.platform.hcxp.co
-
 # Build settings
 markdown: kramdown
-permalink: /:categories/:title
+permalink: /:categories/:title/
 exclude: [vendor]

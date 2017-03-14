@@ -5,12 +5,9 @@ description: "stage dives & high fives"
 baseurl: ""
 url: "http://localhost:4000"
 
-# Misc
-likeit_url: http://likeit.platform.hcxp.co
-
 # Build settings
 markdown: kramdown
-permalink: /:categories/:title
+permalink: /:categories/:title/
 
 gems:
 - jekyll-autoprefixer
