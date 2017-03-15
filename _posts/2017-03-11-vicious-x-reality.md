@@ -24,6 +24,7 @@ sets:
                - https://s3.eu-central-1.amazonaws.com/keepthismoment/11.03.2017.viciousxreality/IMG_2743.jpg
                - https://s3.eu-central-1.amazonaws.com/keepthismoment/11.03.2017.viciousxreality/IMG_2747.jpg
                - https://s3.eu-central-1.amazonaws.com/keepthismoment/11.03.2017.viciousxreality/IMG_2749.jpg
+               - https://s3.eu-central-1.amazonaws.com/keepthismoment/11.03.2017.viciousxreality/nike.jpg
                - https://s3.eu-central-1.amazonaws.com/keepthismoment/11.03.2017.viciousxreality/IMG_2750.jpg
                - https://s3.eu-central-1.amazonaws.com/keepthismoment/11.03.2017.viciousxreality/IMG_2724.jpg
                - https://s3.eu-central-1.amazonaws.com/keepthismoment/11.03.2017.viciousxreality/IMG_2751.jpg
