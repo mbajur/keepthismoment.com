@@ -5,8 +5,11 @@
   <title>{% if page.title %}{{ page.title }}{% else %}keepthismoment{% endif %}</title>
   <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
   <meta name="description" content="{{ site.description }}">
+
   <link rel="stylesheet" type="text/css" href="{{ site.path }}/css/style.css?bust={{ site.time | date: '%s' }}" >
   <link rel="alternate" type="application/atom+xml" href="{{ site.path }}/feed.xml" title="News Feed">
+  <link href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700" rel="stylesheet">
+
   <script src="//code.jquery.com/jquery-latest.min.js"></script>
   <script src="//cdn.rawgit.com/sarahdayan/feedify/master/js/feedify.min.js"></script>
 
