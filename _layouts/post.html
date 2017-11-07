@@ -14,7 +14,11 @@ layout: default
       <p class="feedify-item-body">
         <center>
           {% for photo in set.photos %}
-            <img src="{{ photo }}" alt="{{ set.band_name }} - {{ page.location }}" />
+            {% if photo.first %}
+              <img src="https://{{ photo.first }}" alt="{{ set.band_name }} - {{ page.location }}" width="{{ photo[1] }}" height="{{ photo[2] }}" />
+            {% else %}
+              <img src="{{ photo }}" alt="{{ set.band_name }} - {{ page.location }}" />
+            {% endif %}
           {% endfor %}
         </center>
       </p>
