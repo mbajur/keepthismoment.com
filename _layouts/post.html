@@ -15,7 +15,7 @@ layout: default
         <center>
           {% for photo in set.photos %}
             {% if photo.first %}
-              <img src="https://{{ photo.first }}" alt="{{ set.band_name }} - {{ page.location }}" width="{{ photo[1] }}" height="{{ photo[2] }}" />
+              <img src="https://{{ photo.first }}" alt="{{ set.band_name }} - {{ page.location }}" style="max-width: {{ photo[1] }}px; max-height: {{ photo[2] }}px; width:100%; height:100%;"/>
             {% else %}
               <img src="{{ photo }}" alt="{{ set.band_name }} - {{ page.location }}" />
             {% endif %}
