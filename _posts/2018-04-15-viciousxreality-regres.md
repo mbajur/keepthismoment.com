@@ -15,7 +15,7 @@ sets:
                - [s3.eu-central-1.amazonaws.com/keepthismoment/15.04.2018.viciousxreality.regres/IMG_4115.jpg, 990, 990]
                - [s3.eu-central-1.amazonaws.com/keepthismoment/15.04.2018.viciousxreality.regres/IMG_4116.jpg, 990, 660]
                - [s3.eu-central-1.amazonaws.com/keepthismoment/15.04.2018.viciousxreality.regres/IMG_4117.jpg, 990, 990]
-               - [s3.eu-central-1.amazonaws.com/keepthismoment/15.04.2018.viciousxreality.regres/IMG_4121.jpg, 990, 990]
+               - [s3.eu-central-1.amazonaws.com/keepthismoment/15.04.2018.viciousxreality.regres/IMG_4121.jpg, 990, 780]
                - [s3.eu-central-1.amazonaws.com/keepthismoment/15.04.2018.viciousxreality.regres/IMG_4122.jpg, 990, 990]
                - [s3.eu-central-1.amazonaws.com/keepthismoment/15.04.2018.viciousxreality.regres/IMG_4125.jpg, 990, 990]
                - [s3.eu-central-1.amazonaws.com/keepthismoment/15.04.2018.viciousxreality.regres/IMG_4129.jpg, 990, 990]
@@ -24,7 +24,7 @@ sets:
                - [s3.eu-central-1.amazonaws.com/keepthismoment/15.04.2018.viciousxreality.regres/IMG_4132.jpg, 990, 990]
                - [s3.eu-central-1.amazonaws.com/keepthismoment/15.04.2018.viciousxreality.regres/IMG_4131.jpg, 990, 660]
                - [s3.eu-central-1.amazonaws.com/keepthismoment/15.04.2018.viciousxreality.regres/IMG_4133.jpg, 990, 660]
-               - [s3.eu-central-1.amazonaws.com/keepthismoment/15.04.2018.viciousxreality.regres/IMG_4126.jpg, 990, 990]
+               - [s3.eu-central-1.amazonaws.com/keepthismoment/15.04.2018.viciousxreality.regres/IMG_4126.jpg, 990, 916]
 
            - band_name: Regres
              photos:
@@ -41,7 +41,7 @@ sets:
                - [s3.eu-central-1.amazonaws.com/keepthismoment/15.04.2018.viciousxreality.regres/IMG_4149.jpg, 990, 660]
                - [s3.eu-central-1.amazonaws.com/keepthismoment/15.04.2018.viciousxreality.regres/IMG_4150.jpg, 990, 762]
                - [s3.eu-central-1.amazonaws.com/keepthismoment/15.04.2018.viciousxreality.regres/IMG_4155.jpg, 990, 990]
-               - [s3.eu-central-1.amazonaws.com/keepthismoment/15.04.2018.viciousxreality.regres/IMG_4160.jpg, 990, 990]
+               - [s3.eu-central-1.amazonaws.com/keepthismoment/15.04.2018.viciousxreality.regres/IMG_4160.jpg, 990, 660]
                - [s3.eu-central-1.amazonaws.com/keepthismoment/15.04.2018.viciousxreality.regres/IMG_4153.jpg, 990, 660]
                - [s3.eu-central-1.amazonaws.com/keepthismoment/15.04.2018.viciousxreality.regres/IMG_4159.jpg, 990, 990]
 
