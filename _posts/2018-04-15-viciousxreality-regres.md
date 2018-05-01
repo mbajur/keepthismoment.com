@@ -3,7 +3,7 @@ layout:    post
 category:  photos
 title:     Vicious X Reality, Regres
 location:  Kraków
-thumb:     https://s3.eu-central-1.amazonaws.com/keepthismoment/15.04.2018.viciousxreality.regres/IMG_4116.jpg
+thumb:     https://s3.eu-central-1.amazonaws.com/keepthismoment/15.04.2018.viciousxreality.regres/IMG_4126.jpg
 width:     990
 sets:
            - band_name: Vicious X Reality
