@@ -17,6 +17,8 @@ html {
 body {
   color:            $body-color;
   background-color: $body-background-color;
+  margin: 0;
+  padding: 0;
 }
 
 //////////////
@@ -210,6 +212,17 @@ table {
   padding-bottom: 1rem;
   margin-bottom: 3rem;
 
+  &-brand {
+    float: left;
+    background: #f19e4a;
+    color: #fff !important;
+    padding: 5px 16px;
+    letter-spacing: 3px;
+    font-weight: 300;
+    // text-transform: uppercase;
+    transform: skewX(-7deg);
+  }
+
  .masthead-title {
     margin-top: 0;
     margin-bottom: 0;
@@ -236,15 +249,19 @@ table {
   margin-bottom: 4em;
 
   // note: only change margin for title,date if inside post block
-  .post-title {
+  &-title {
     margin-top: 0;
   }
 
   // Meta data line below post title
-  .post-date {
+  &-date {
     display: block;
     margin-top:  -.5rem;
     margin-bottom: 1rem;
+  }
+
+  &--photo {
+    cursor: nesw-resize;
   }
 }
 

@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<article class='post feedify'>
+<article class='post feedify lightgallery'>
   {% for set in page.sets %}
     <div class="post--band feedify-item">
       <h2 class="post--band-name feedify-item-header">
@@ -15,7 +15,9 @@ layout: default
         <center>
           {% for photo in set.photos %}
             {% if photo.first %}
-              <img src="https://{{ photo.first }}" alt="{{ set.band_name }} - {{ page.location }}" style="max-width: {{ photo[1] }}px; max-height: {{ photo[2] }}px; width:100%; height:100%;"/>
+              <a href="https://{{ photo.first }}" class="post--photo" title="{{ set.band_name }}">
+                <img src="https://{{ photo.first }}" title="{{ set.band_name }}" alt="{{ set.band_name }}" style="max-width: {{ photo[1] }}px; max-height: {{ photo[2] }}px; width:100%; height:100%;" />
+              </a>
             {% else %}
               <img src="{{ photo }}" alt="{{ set.band_name }} - {{ page.location }}" />
             {% endif %}
