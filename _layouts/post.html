@@ -13,6 +13,10 @@ layout: default
 
       <p class="feedify-item-body">
         <center>
+          {% if set.notice %}
+            <span class="set-notice">{{ set.notice }}</span>
+          {% endif %}
+
           {% for photo in set.photos %}
             {% if photo.first %}
               <a href="https://{{ photo.first }}" class="post--photo" title="{{ set.band_name }}">
