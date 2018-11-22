@@ -1,17 +1,21 @@
 ---
-layout: default
+layout: syndex
 ---
 
-<article class='post lightgallery'>
-  {% for set in page.sets %}
-    <div class="post--band">
-      <h2 class="post--band-name">
-        {{ set.band_name }}
+<div id="logo_index_left">
+  <a href="/">KTM.exe</a>
+</div>
 
-        <a href="#" class="top">top &uarr;</a>
+<img src="https://s3.eu-central-1.amazonaws.com/keepthismoment/15.11.2018.y2y.weekender/IMG_4869.gif" width="400" class="sloniu-leb shake" />
+
+<article class='post feedify lightgallery'>
+  {% for set in page.sets %}
+    <div class="post--band feedify-item">
+      <h2 class="post--band-name feedify-item-header">
+        {{ set.band_name }}
       </h2>
 
-      <p>
+      <p class="feedify-item-body">
         <center>
           {% if set.notice %}
             <span class="set-notice">{{ set.notice }}</span>
@@ -19,8 +23,8 @@ layout: default
 
           {% for photo in set.photos %}
             {% if photo.first %}
-              <a href="https://{{ photo.first }}" class="post--photo" title="{{ set.band_name }}">
-                <img src="https://{{ photo.first }}" title="{{ set.band_name }}" alt="{{ set.band_name }}" style="max-width: {{ photo[1] }}px; max-height: {{ photo[2] }}px; width:100%; height:100%;" />
+              <a href="https://{{ photo.first }}" class="post--photo col-{{ photo[1] }}" title="{{ set.band_name }}">
+                <img src="https://{{ photo.first }}" title="{{ set.band_name }}" alt="{{ set.band_name }}" />
               </a>
             {% else %}
               <img src="{{ photo }}" alt="{{ set.band_name }} - {{ page.location }}" />
