@@ -81,5 +81,41 @@ $(document).ready(function() {
     audio.pause();
     audio.currentTime = 0;
   });
+
+  $('article')[0].prepend($("<img src='https://s3.eu-central-1.amazonaws.com/keepthismoment/15.11.2018.y2y.weekender/IMG_4869.gif' width='400' class='sloniu-leb shake' />")[0])
 })
 </script>
+
+<style type="text/css">
+    @import url('https://fonts.googleapis.com/css?family=Faster+One');
+
+    body {
+      font: normal 12px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      background: url(https://s3.eu-central-1.amazonaws.com/keepthismoment/15.11.2018.y2y.weekender/VUQEhJz.jpg);
+    }
+
+    .post--band-name {
+      font-family: 'Faster One', cursive;
+      color: #f70089;
+      letter-spacing: 10px;
+    }
+
+    .shake {
+      animation: shake 0.5s;
+      animation-iteration-count: infinite;
+    }
+
+    @keyframes shake {
+      0% { transform: translate(1px, 1px) rotate(0deg); }
+      10% { transform: translate(-1px, -2px) rotate(-1deg); }
+      20% { transform: translate(-3px, 0px) rotate(1deg); }
+      30% { transform: translate(3px, 2px) rotate(0deg); }
+      40% { transform: translate(1px, -1px) rotate(1deg); }
+      50% { transform: translate(-1px, 2px) rotate(-1deg); }
+      60% { transform: translate(-3px, 1px) rotate(0deg); }
+      70% { transform: translate(3px, 1px) rotate(-1deg); }
+      80% { transform: translate(-1px, -1px) rotate(1deg); }
+      90% { transform: translate(1px, 2px) rotate(0deg); }
+      100% { transform: translate(1px, -2px) rotate(-1deg); }
+    }
+</style>

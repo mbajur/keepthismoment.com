@@ -3,10 +3,8 @@ layout: syndex
 ---
 
 <div id="logo_index_left">
-  <a href="/">KTM.exe</a>
+  <a href="/">{{ page.page_title | default: 'KTM.exe' }}</a>
 </div>
-
-<img src="https://s3.eu-central-1.amazonaws.com/keepthismoment/15.11.2018.y2y.weekender/IMG_4869.gif" width="400" class="sloniu-leb shake" />
 
 <article class='post feedify lightgallery'>
   {% for set in page.sets %}
