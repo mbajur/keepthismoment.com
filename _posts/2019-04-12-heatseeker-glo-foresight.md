@@ -70,8 +70,8 @@ sets:
 <style type="text/css">
 body {
   background: url(https://s3.eu-central-1.amazonaws.com/keepthismoment/12.04.2019.foresight/pozadi_hlavni.jpg);
-  /* background-position: 100% auto; */
   background-attachment: fixed;
+  background-size: 100% auto;
 }
 
 .slonrob {
