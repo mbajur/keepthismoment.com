@@ -12,6 +12,11 @@ end
 
 activate :directory_indexes
 
+activate :deploy do |deploy|
+  deploy.build_before = true
+  deploy.deploy_method = :git
+end
+
 # Layouts
 # https://middlemanapp.com/basics/layouts/
 
