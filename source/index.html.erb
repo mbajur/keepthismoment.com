@@ -26,7 +26,7 @@ title: Keep This Moment
   <div class="cf ph2-ns flex-wrap flex">
     <% blog.articles.each do |article| %>
       <div class="fl w-100 w-third-ns pa3 code">
-        <a class="mb3 mw-100" href="<%= article.url %>" style="width:427px; height: 250px; overflow:hidden; display:block;background-size: cover;background-position: 50% 50%;background-image: url(<%= article.data.thumb %>)">
+        <a class="mb3 mw-100" href="<%= article.url %>" style="width:427px; height: 250px; overflow:hidden; display:block;background-size: cover;background-position: 50% 50%;background-image: url('<%= article.data.thumb %>')">
         </a>
         <a href="" class="no-underline black"><%= article.title %></a>
       </div>
