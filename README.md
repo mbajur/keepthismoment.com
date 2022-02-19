@@ -1,10 +1,7 @@
-# keepthismoment.com
-Keep This Moment website
+To deploy, use:
 
-## Run locally
+```
+$ middleman deploy
+```
 
-    jekyll server
-    
-## Build
-
-    jekyll build --config _config_prod.yml
+It's gonna build and push files to gh-pages branch
