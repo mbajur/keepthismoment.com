@@ -1,0 +1,39 @@
+---
+title: Keep This Moment
+---
+
+<div class="mw9 center ph3-ns">
+  <div class="cf ph2-ns mt3 mb3 flex flex-wrap">
+    <div class="fl w-100 w-70-ns pa3 order-last order-0-ns post-meta">
+      <h1 class="f1 ttu sans-serif mb1 mt0 logo">
+        Keep This<br/>Moment<span>/com</span>
+      </h1>
+
+      <p class="code">
+        Highfives, stagedives and singalongs since 2007 till infinity
+      </p>
+    </div>
+
+    <div class="fl w-100 w-30-ns pa3 order-0 order-1-ns logo-img">
+      <a href="/">
+        <img src="/images/logo.svg" width="60" height="60" class="fl fr-ns">
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="mw9 center ph3-ns">
+  <div class="cf ph2-ns flex-wrap flex">
+    <% blog.articles.each do |article| %>
+      <div class="fl w-100 w-third-ns pa3 code">
+        <a class="mb3 mw-100" href="<%= article.url %>" style="width:427px; height: 250px; overflow:hidden; display:block;background-size: cover;background-position: 50% 50%;background-image: url(<%= article.data.thumb %>)">
+        </a>
+        <a href="" class="no-underline black"><%= article.title %></a>
+      </div>
+    <% end %>
+
+    <div class="fl w-100 w-third-ns pa3 code">
+      <p>Older albums are temporary unavailable.<br/>Please recheck soon.</p>
+    </div>
+  </div>
+</div>

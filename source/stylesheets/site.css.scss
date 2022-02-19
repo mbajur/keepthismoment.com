@@ -1,0 +1,150 @@
+body {
+  background: #cefff4;
+}
+
+.turbo-progress-bar {
+  height: 5px;
+  background-color: green;
+}
+
+.sans-serif {
+  font-family: Arial,HelveticaNeue,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+}
+
+.logo {
+  line-height: 3.3rem;
+
+  span {
+    -webkit-text-stroke: 1px black;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.code {
+  font-family: monospace;
+}
+
+.band {
+  position: relative;
+  margin-bottom: 5rem;
+}
+
+.band-name {
+  text-align: center;
+}
+
+.photo {
+  margin-bottom: 1rem;
+}
+
+.photo--wide {
+  width: 130%;
+  left: 50%;
+  position: relative;
+  transform: translatex(-50%);
+  max-width: 90vw;
+}
+
+.gallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .photo {
+    flex: 1;
+  }
+
+  .photo + .photo {
+    margin-left: 1rem;
+  }
+}
+
+.gallery--wide {
+  width: 130%;
+  left: 50%;
+  position: relative;
+  transform: translatex(-50%);
+  max-width: 90vw;
+}
+
+applause-button {
+  svg {
+    transform: rotate(-35deg);
+  }
+
+  .outline {
+    outline: none;
+  }
+
+  .count {
+    font-family: monospace;
+    color: #000;
+  }
+}
+
+// When screen is as wider than wide photo
+@media screen and (min-width: 1340px) {
+  .band-name {
+    transform: rotate(180deg);
+    top: 0;
+    left: 0;
+    position: sticky;
+    writing-mode: vertical-lr;
+    float: left;
+    padding-bottom: 1rem;
+    padding-right: 1.5rem;
+
+    &::before {
+      content: "|||";
+      margin-bottom: .4rem;
+      display: inline-block;
+    }
+  }
+}
+
+// When screen is as narrower than wide photo
+@media screen and (max-width: 1340px) {
+  :not(.gallery) > .photo {
+    left: 50%;
+    position: relative;
+    transform: translatex(-50%);
+    width: 130%;
+    max-width: 90vw;
+  }
+
+  .band {
+    margin-bottom: 1rem;
+  }
+
+  .footer {
+    padding: 0;
+    width: 100%;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .post-meta {
+    text-align: center;
+  }
+
+  .post-title {
+    font-size: 2rem;
+  }
+
+  .logo {
+    font-size: 2rem;
+    line-height: 2rem;
+    margin-top: 1rem;
+  }
+
+  .logo-img {
+    text-align: center;
+    line-height: 0;
+    padding: 0;
+
+    a {
+      display: inline-block;
+    }
+  }
+}
