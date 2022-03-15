@@ -61,6 +61,8 @@ helpers do
   end
 
   def photo(filename, wide: false)
+    filename = filename.include?('.') ? filename : "#{filename}.jpg"
+
     <<-HTML
       <div class="photo #{'photo--wide' if wide}">
         <img src="https://keepthismoment.s3.amazonaws.com/2020.02.07.wide.smiles.11/#{filename}.jpg" width="mw-100"/>
