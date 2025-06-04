@@ -70,6 +70,14 @@ helpers do
     HTML
   end
 
+  def photo_from_url(url, wide: false)
+    <<-HTML
+      <div class="photo #{'photo--wide' if wide}">
+        <img src="#{url}" width="mw-100"/>
+      </div>
+    HTML
+  end
+
   def gallery(wide: false, &block)
     content = capture_html(&block)
 

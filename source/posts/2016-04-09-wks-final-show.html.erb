@@ -1,0 +1,40 @@
+---
+title: "W Kilku Słowach Final Show"
+layout: "blog"
+city: "Kraków"
+date: 2016-04-09
+thumb: "https://drive.google.com/uc?export=view&id=0B7H42ILAyLW6WGQwOHRSUUVSNlU"
+---
+
+<div>
+  <% band("Watching Me Fall") do %>
+    <%= photo_from_url("https://drive.google.com/uc?export=view&id=0B7H42ILAyLW6Zi1TYV82RzhjLU0", wide: true) %>
+    <%= photo_from_url("https://drive.google.com/uc?export=view&id=0B7H42ILAyLW6TUVUdzROc3A4eTQ", wide: true) %>
+    <%= photo_from_url("https://drive.google.com/uc?export=view&id=0B7H42ILAyLW6OG1IdG9NbEhscmM", wide: true) %>
+    <%= photo_from_url("https://drive.google.com/uc?export=view&id=0B7H42ILAyLW6UWtGZHZ2eDZGbmM", wide: true) %>
+  <% end %>
+
+  <% band("Regres") do %>
+    <% [
+      "bDZhQmxPdHNlblU", "X04xZUxzTW5ncEE", "SGRqNnFFWHA2dzg", "ZVJSblA0QUlLU2s",
+      "STdkX25lX1VRNlE", "ZTBhRVRQRDRfQTg", "RklRQjBLRjRGd28", "SGhzc3c4MldLd0E",
+      "QktrYWN1RUJFSkE", "Z0M4ZGwzcXRnOHc", "WTBsR0JqelZueDA"
+    ].each do |id| %>
+      <%= photo_from_url("https://drive.google.com/uc?export=view&id=0B7H42ILAyLW6#{id}", wide: true) %>
+    <% end %>
+  <% end %>
+
+  <% band("W Kilku Słowach") do %>
+    <% [
+      "aHZQYjBIV1ZPX1E", "OWo5Q0F6OXhDa3M", "Y3U3dzJEQlFxN2M", "eWhVRTlSYmlsQlE",
+      "ZVdVanF2Y1VqZWc", "LU1qWnJWUDUwYW8", "TkxjelZiaHZwTFU", "WGQwOHRSUUVSNlU",
+      "TzNJTWpJTXk3VXc", "S3lyZExyZ0hqN0E", "RTl2bjN1eDJ2VTg", "VFdzRDZHSVR6ZTQ",
+      "SmVlZG9RMXotN0U", "Q01CZkUxSGMyRUU", "ZGs2LTVCRVpXajg", "NzdYNEhUVmVJMkU",
+      "WWF5ZHlaWENMM1E", "bkk5VUljMXRPOXM", "YktBblVfZnZ6ZkU", "QTFvYVhaVG1IZFU",
+      "VG1sa19Xa3JTWFk", "UG1EbFRTNjVJMUU", "Yi1EcGdXbjNVeDg", "R3ZqdGVKdmRzbHc",
+      "SFFKU0ZqTGlKNms", "YUF4UFNFbnU3RGs", "U3FqSk9Idml3bDg", "WW9MRDJkRFlkUjg"
+    ].each do |id| %>
+      <%= photo_from_url("https://drive.google.com/uc?export=view&id=0B7H42ILAyLW6#{id}", wide: true) %>
+    <% end %>
+  <% end %>
+</div>
